@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Azeret Mono";
+    src: local("Azeret Mono"),
+         url(../fonts/azeret_mono_bold.ttf),
+         url(../fonts/azeret_mono_bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+         url(../fonts/Inter-Regular.ttf),
+         url(../fonts/Inter-Regular.woff),
+         url(../fonts/Inter-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    background-color: #E9E9E3;
+}
+
+.menu__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    display: flex;
+}
+
+.menu__header {
+    color: #6F6F64;
+    padding-right: 120px;
+}
+
+.menu__title {
+    font-family: 'Azeret mono', 'Times New Roman', Times, serif;
+    margin-bottom: 17px;
+    font-size: 1.1rem;
+    line-height: 1.35rem;
+}
+
+.menu__subtitle {
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 63px;
+    line-height: 2.8rem;
+}
+
+.menu__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-button {
+    padding: 17px 0px;
+    border-radius: 0px;
+    border-color: #6F6F64;
+    background-color: transparent;
+    color: #6F6F64;
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.main-button:hover {
+    border-color: transparent;
+    background-color: #6F6F64;
+    color: #fff;
+}
+
+.menu__buttons-food,
+.menu__buttons-drinks {
+    margin-bottom: 12px;
+}
